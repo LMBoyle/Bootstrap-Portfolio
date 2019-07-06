@@ -8,39 +8,45 @@
 
     <body class="d-flex flex-column">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand p-2" href="#"> Luke Boyle </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#"> Luke Boyle </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active" href="portfolio.html"> Portfolio </a>
-                        <a class="nav-item nav-link" href="contact.html"> Contact </a>
-                    </div>
+        
+                <div class="navbar-collapse collapse show" id="navbarsExample07" style="">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html"> About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contact.html"> Contact </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
 
         <!-- Content -->
         <div id="page-content">
-            <div class="container">
+            <div class="container-fluid mx-lg-auto mx-md-0 mx-sm-0">
                 <!-- Projects -->
                 <div class="card mt-3 mb-5 px-3 p-2">
                     <!-- Title -->
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="card-title border-bottom pb-3 text-lg-left text-md-left text-sm-center"> Portfolio </h2>
+                            <h2 class="card-title border-bottom pb-3 text-lg-left text-md-center text-sm-center"> Portfolio </h2>
                         </div>
                     </div>
 
                     <!-- Photos -->
                     <div class="row">
                         <!-- Hangman -->
-                        <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div class="card border-0 shadow">
                                 <a href="#"><img src="assets/images/hangman.jpg" class="card-img-top" alt="Hangman"></a>
                                 <div class="card-body text-center">
@@ -50,7 +56,7 @@
                         </div>
 
                         <!-- RPG -->
-                        <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div class="card border-0 shadow">
                                 <a href="#"><img src="assets/images/rpg.jpg" class="card-img-top" alt="RPG Game"></a>
                                 <div class="card-body text-center">
@@ -62,7 +68,7 @@
                         <div class="w-100"></div>
 
                         <!-- Triva -->
-                        <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div class="card border-0 shadow">
                                 <a href="#"><img src="assets/images/triva.jpg" class="card-img-top" alt="Triva Game"></a>
                                 <div class="card-body text-center">
@@ -72,7 +78,7 @@
                         </div>
 
                         <!-- Rutgers -->
-                        <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div class="card border-0 shadow">
                                 <a href="#"><img src="assets/images/rutgers.jpg" class="card-img-top" alt="Rutgers Info Widget"></a>
                                 <div class="card-body text-center">
@@ -84,7 +90,7 @@
                         <div class="w-100"></div>
 
                         <!-- Rock Paper Scissors -->
-                        <div class="col-md-4 col-sm-12 mb-4">
+                        <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div class="card border-0 shadow">
                                 <a href="#"><img src="assets/images/rock.jpg" class="card-img-top" alt="Rock Paper Scissors"></a>
                                 <div class="card-body text-center">
@@ -105,5 +111,10 @@
                 <div class="text-muted text-center"> Copyright &copy; 2019 Luke Boyle </div>
             </div>
         </footer>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
     </body>
 </html>
