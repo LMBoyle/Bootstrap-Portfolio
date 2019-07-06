@@ -14,3 +14,8 @@ body {
 #sticky-footer {
     flex-shrink: none;
 }
+
+.border-bottom { 
+    border-width:3px !important;
+    margin-top: 3px;
+}
