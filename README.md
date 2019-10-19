@@ -1,6 +1,9 @@
 ## Bootstrap
 Remade portfolio from [previous homework](https://github.com/LMBoyle/Basic-Portfolio) using Bootstrap and minimal CSS
 
+## What It Teaches
+Using Bootstrap to make a webpage
+
 ## Languages/Technologies 
 * HTML
 * CSS
