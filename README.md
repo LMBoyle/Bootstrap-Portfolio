@@ -1,10 +1,8 @@
-## Bootstrap
-Remade portfolio from [previous homework](https://github.com/LMBoyle/Basic-Portfolio) using Bootstrap and minimal CSS
+## [Bootstrap Portfolio](https://lmboyle.github.io/bootstrapPortfolio/)
 
-## What It Teaches
-Using Bootstrap to make a webpage
+Remade [basic portfolio](https://github.com/LMBoyle/basicPortfolio) using Bootstrap and minimal CSS
 
-## Languages/Technologies 
+## Built With...
 * HTML
 * CSS
 * Bootstrap
@@ -20,8 +18,4 @@ Using Bootstrap to make a webpage
 ### Contact
 ![Demo About Img](assets/images/demoSSContact.png)
 
-
-## Links
-[Deployed Link](https://lmboyle.github.io/Bootstrap-Portfolio/)
-
-[Portfolio](https://lmboyle.github.io/)
+&copy; 2019 [Luke Boyle](https://lmboyle.github.io/)
